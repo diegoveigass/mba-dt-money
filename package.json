@@ -7,13 +7,15 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server -p 3333 -w server.json"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-radio-group": "^1.2.0",
     "@rocketseat/eslint-config": "^3.0.12",
     "phosphor-react": "^1.4.1",
+    "project-dt-money": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.12"
@@ -28,6 +30,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "eslint-plugin-styled-components-a11y": "^2.1.35",
     "globals": "^15.9.0",
+    "json-server": "^1.0.0-beta.2",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"

@@ -1,0 +1,12 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 150,
+      "createdAt": "2024-09-03T10:42:11.505Z"
+    }
+  ]
+}
