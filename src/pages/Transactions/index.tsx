@@ -3,7 +3,7 @@ import { Header } from '../../components/Header'
 import { Summary } from '../../components/summary'
 import { SearchForm } from './components/SearchForm'
 import {
-  PriceHightlight,
+  PriceHighlight,
   TransactionsContainer,
   TransactionsTable,
 } from './styles'
@@ -27,10 +27,10 @@ export function Transactions() {
                 <tr key={transaction.id}>
                   <td width="50%">{transaction.description}</td>
                   <td>
-                    <PriceHightlight variant={transaction.type}>
+                    <PriceHighlight variant={transaction.type}>
                       {transaction.type === 'outcome' && '- '}
                       {priceFormatter.format(transaction.price)}
-                    </PriceHightlight>
+                    </PriceHighlight>
                   </td>
                   <td>{transaction.category}</td>
                   <td>{dateFormatter.format(new Date(transaction.createdAt))}</td>
