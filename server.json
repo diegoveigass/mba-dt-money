@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "id": "1",
+      "id": 1,
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
@@ -9,7 +9,7 @@
       "createdAt": "2024-09-03T10:42:11.505Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Trabalho",
@@ -17,12 +17,44 @@
       "createdAt": "2024-09-03T10:42:11.505Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "description": "Dividendos",
       "type": "income",
       "category": "Investimento",
       "price": 234,
       "createdAt": "2024-09-03T10:42:11.505Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 5000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-09-05T23:56:00.044Z",
+      "id": 4
+    },
+    {
+      "description": "Dogão",
+      "price": 15,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-09-06T00:05:54.805Z",
+      "id": 5
+    },
+    {
+      "description": "Dogão 2",
+      "price": 20,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-09-06T00:06:22.958Z",
+      "id": 6
+    },
+    {
+      "description": "Site",
+      "price": 1000,
+      "category": "Trabalho",
+      "type": "income",
+      "createdAt": "2024-09-06T00:17:49.103Z",
+      "id": 7
     }
   ]
 }
