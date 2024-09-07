@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { useState, memo } from 'react'
 import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
 import * as Dialog from '@radix-ui/react-dialog'
 
 import logoImg from '../../assets/logo.svg'
 import { NewTransactionModal } from '../NewTransactionModal'
 
-export function Header() {
+function Header() {
   const [isTransactionModalOpen, setIsTransactionModalOpen] = useState(false)
 
   function closeTransactionModal() {
@@ -33,3 +33,5 @@ export function Header() {
     </HeaderContainer>
   )
 }
+
+export default memo(Header)

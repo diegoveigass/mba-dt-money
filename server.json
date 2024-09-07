@@ -55,6 +55,14 @@
       "type": "income",
       "createdAt": "2024-09-06T00:17:49.103Z",
       "id": 7
+    },
+    {
+      "description": "asd",
+      "price": 124,
+      "category": "dawd",
+      "type": "income",
+      "createdAt": "2024-09-07T11:24:44.221Z",
+      "id": 8
     }
   ]
 }
