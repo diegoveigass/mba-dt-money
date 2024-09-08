@@ -1,4 +1,4 @@
-import Header from '../../components/Header'
+import { Header } from '../../components/Header'
 import { Summary } from '../../components/summary'
 import { SearchForm } from './components/SearchForm'
 import {

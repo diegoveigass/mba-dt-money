@@ -5,7 +5,7 @@ import * as Dialog from '@radix-ui/react-dialog'
 import logoImg from '../../assets/logo.svg'
 import { NewTransactionModal } from '../NewTransactionModal'
 
-function Header() {
+function HeaderComponent() {
   const [isTransactionModalOpen, setIsTransactionModalOpen] = useState(false)
 
   function closeTransactionModal() {
@@ -34,4 +34,4 @@ function Header() {
   )
 }
 
-export default memo(Header)
+export const Header = memo(HeaderComponent)
